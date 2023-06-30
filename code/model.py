@@ -7,7 +7,7 @@ import pandas as pd
 INFEASIBLE = 100000
 
 
-def generateInstances(N = 20, m = 10, V = (100,100,100)):
+def generateInstances(N = 20, m = 10, V = (10,100,100)):
     def ur(lb, ub):
         # u.r. is an abbreviation of "uniformly random". [Martello (1995)]
         value = random.uniform(lb, ub)
